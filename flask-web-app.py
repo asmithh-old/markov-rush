@@ -81,8 +81,8 @@ def walrush():
         returnString += '''<h2>''' + i + '''</h2>'''
     returnString += '<h3 > <font color = "blue">  refresh for more wisdom. </font> </h3>'
     returnString += ''' </body> </html> '''
-    return returnString
-
+    #return returnString
+    return "walrus"
 if __name__ == "__main__":
     app.debug = True
     app.run()
